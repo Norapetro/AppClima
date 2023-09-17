@@ -34,7 +34,7 @@ async function getWeather(city) {
       let isDaytime = currentTime > sunriseTime && currentTime < sunsetTime;
       var urlClima = isDaytime ? "./img/dom.png" : "./img/noche.png"; 
 
-      var fondoUrl = isDaytime ? "./img/dia.jpg.jpg" : "./img/noche.jpg.jpg"; //imagen de fondo dependiendo de si es de día o de noche
+      var fondoUrl = isDaytime ? "./img/dia.jpg.jpg" : "./img/noche.jpg.jpg"; //imagen de fondo si es de día o de noche
 
       // Cambiar la imagen de fondo
       document.body.style.backgroundImage = `url(${fondoUrl})`;
@@ -54,16 +54,4 @@ async function getWeather(city) {
     weatherInfo.textContent = "Ocurrió un error al obtener el clima.";
   }
 }
-
-
-
-
-      // var urlClima = "./img/dom.png";
-
-      // if (temperature < 23){
-      //   urlClima = "./img/lluvia.png";
-      // }
-      // else if (temperature < 30){
-      //   urlClima = "./img/nublado.png";
-      // }
 

@@ -1,5 +1,5 @@
 body {
-    background-color: #669bbc;
+    background-color: #0d3b66;
     font-family: "Homer Simpson UI";
     height: 900px;
     width: 400px;
@@ -39,7 +39,7 @@ body {
 
  img {
   animation: zoom 5s infinite;
-  width: 250px;
+  width: 200px;
 }
 
 @keyframes zoom {
