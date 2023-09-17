@@ -1,0 +1,70 @@
+body {
+    background-color: #669bbc;
+    font-family: "Homer Simpson UI";
+    height: 900px;
+    width: 400px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    color: white;
+  }
+  
+ h1{
+    color: white;
+    display: flex;
+ }
+
+ html {
+   display: flex;
+   justify-content: center;
+ } 
+
+#get-button-tiempo{
+   background-color:#b5f8fe;
+   border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+   #weather-container {
+     margin: 10px;
+     padding: 10px;
+   }
+ }
+ @media (min-width: 769px) and (max-width: 1024px) {
+   #weather-container {
+     margin: 20px;
+     padding: 20px;
+   }
+ }
+
+ img {
+  animation: zoom 5s infinite;
+  width: 250px;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.2);
+  }
+  10% {
+    transform: scale(1);
+  }
+}
+
+
+#ciudad{
+   border-radius: 5px; 
+   background-color: #b5f8fe;
+}
+
+.weather-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 18px;
+}
